@@ -1,0 +1,161 @@
+nav{
+    display: flex;
+}
+#crypto{
+    display: flex;
+}
+#img1{
+    padding: 15px 20px;
+    width: 20%;
+    display: flex;
+}
+#img1{
+    font-size: 60px;
+}
+.cryp{
+    padding-left: 10px;
+    display: block;
+}
+.for{
+    font-size: small;
+    padding-left: 5px;
+}
+
+body{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+a{
+    color: greenyellow;
+}
+#first{
+    padding: 0px 70px;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.topside{
+    width: 35%;
+    padding: 0px 30px;
+    background-color: rgb(72, 76, 76);
+}
+.s{
+    display: flex;
+}
+.ss{
+    text-align: start;
+
+}
+.sss{
+    padding-left: 80px;
+    text-align: end;
+}
+.ss button{
+    background-color: aqua;
+    border-radius: 30px;
+    padding: 5px 20px;
+
+}
+
+#choose select{
+    text-transform: capitalize;
+    width: 50%;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    height: 5vh;
+
+}
+#choose select option{
+    color: black;
+    
+}
+#choose label{
+    
+    padding: 0px 10px;
+    color: white;
+    display: block;
+
+}
+#choosed2{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+
+}
+
+.choosed select{
+    text-transform: capitalize;
+    width: 145%;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    height: 5vh;
+}
+.choosed input{
+    text-transform: capitalize;
+    width: 95%;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    height: 4vh;
+    
+}
+.choosed select option{
+    color: black;
+
+}
+.choosed label{
+    padding: 0px 5px;
+    color: white;
+    display: block;
+}
+.input1 input{
+     text-transform: capitalize;
+    width: 50%;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    height: 20vh;
+}
+#donor div{
+    padding: 5px 0px;
+}
+#donor input{
+    display: block;
+    text-transform: capitalize;
+    width: 50%;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    height: 5vh;
+    justify-content: space-around;
+
+}
+#last1{
+    display: flex;
+    padding: 20px 70px;
+}
+
+#img{
+    width: 50%;
+    font-size: 50px;
+}
+.li{
+    text-transform: capitalize;
+    display: flex;
+}
+footer{
+    padding: 0px 70px;
+}
+#copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.c2{
+    color: aqua;
+    padding-top: 20px;
+}
