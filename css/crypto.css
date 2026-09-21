@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 nav{
     display: flex;
 }
@@ -5,7 +8,7 @@ nav{
     display: flex;
 }
 #img1{
-    padding: 15px 20px;
+    padding: 15px 60px;
     width: 20%;
     display: flex;
 }
@@ -41,6 +44,7 @@ a{
     width: 35%;
     padding: 0px 30px;
     background-color: rgb(72, 76, 76);
+    border-radius: 20px;
 }
 .s{
     display: flex;
@@ -158,4 +162,69 @@ footer{
 .c2{
     color: aqua;
     padding-top: 20px;
+}
+
+@media (max-width: 765px) {     
+#first{
+    padding: 0px 30px;
+    width: 100%;
+}    
+#top{
+    flex-wrap: wrap;
+} 
+.topside{
+    width: 100%;
+}
+#choose{
+    padding: 20px 0px;
+}
+#choose select{
+    width: 100%;
+}
+#choosed2{
+    flex-wrap: wrap;
+    width: 100%;
+    gap: calc(1%);
+}
+.choosed select{
+    width: 100%;
+}
+.choosed input{
+    width: 100%;
+}
+.choosed{
+    width: 100%;
+}
+.input1 input{
+    width: 100%;
+}
+#donor input{
+    width: 100%;
+}
+#last1{
+  padding: 0px 30px;  
+}
+.cryp{
+    padding: 0px;
+}
+#img{
+    font-size: xx-large;
+}
+#img1{
+    padding: 15px 40px;
+    padding-top: 25px;
+    font-size: xx-large;
+}
+.li{
+font-size: x-small;
+width: 100%;
+}
+.li ol{
+    padding: 0px 20px;
+}
+footer{
+    width: 100%;
+    padding: 0px 30px;
+    font-size: small;
+}
 }
